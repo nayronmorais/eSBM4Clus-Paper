@@ -1,0 +1,151 @@
+Dataset,Method,rank_test_score,split0_test_score,mean_test_score,params
+artificial/cassini,AutoCloud,1.0,0.0744584999103712,0.0744584999103712,{'m': 1.0}
+artificial/cassini,CEDAS,1.0,0.6834481120873902,0.6834481120873902,"{'radius': 0.112, 'min_samples': 12, 'decay': 944}"
+artificial/cassini,DBSTREAM,1.0,0.5869574087599201,0.5869574087599201,"{'minimum_weight': 1.889, 'intersection_factor': 0.122, 'clustering_threshold': 0.472}"
+artificial/cassini,DenStream,1.0,0.8001058705387952,0.8001058705387952,"{'n_samples_init': 60, 'mu': 34.762, 'epsilon': 0.05, 'decaying_factor': 0.01}"
+artificial/cassini,eSBM4Clus,1.0,1.0,1.0,"{'w': 30, 'beta': 0.666}"
+artificial/cassini,MacroSOStream,1.0,0.259766483535931,0.259766483535931,"{'p': 7.0, 'min_pts': 11, 'merge_threshold': 0.001, 'alpha': 0.504}"
+artificial/cassini,MCMSTStream,1.0,0.1200264525337826,0.1200264525337826,"{'sliding_window_size': 500, 'radius': 0.056, 'min_samples': 6, 'min_micros': 4}"
+artificial/cassini,MicroTEDAClus,1.0,0.1458819710832467,0.1458819710832467,{'r0': 0.001}
+artificial/cassini,OEC,1.0,1.0,1.0,"{'stab_period': 17, 'gamma_normal': 0.555, 'ff': 0.881}"
+artificial/cassini,SOSTream,1.0,0.6641051109576389,0.6641051109576389,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/chameleon-ds3-clean,AutoCloud,1.0,0.0547665042896287,0.0547665042896287,{'m': 1.0}
+artificial/chameleon-ds3-clean,CEDAS,1.0,0.6140312996840194,0.6140312996840194,"{'radius': 0.056, 'min_samples': 12, 'decay': 2000}"
+artificial/chameleon-ds3-clean,DBSTREAM,1.0,0.4129779248510488,0.4129779248510488,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.367}"
+artificial/chameleon-ds3-clean,DenStream,1.0,0.4849326168881099,0.4849326168881099,"{'n_samples_init': 115, 'mu': 12.54, 'epsilon': 0.07, 'decaying_factor': 0.02}"
+artificial/chameleon-ds3-clean,eSBM4Clus,1.0,0.9110401797952108,0.9110401797952108,"{'w': 30, 'beta': 0.334}"
+artificial/chameleon-ds3-clean,MacroSOStream,1.0,0.2233367527595879,0.2233367527595879,"{'p': 7.0, 'min_pts': 9, 'merge_threshold': 0.001, 'alpha': 0.109}"
+artificial/chameleon-ds3-clean,MCMSTStream,1.0,0.0,0.0,"{'sliding_window_size': 600, 'radius': 0.167, 'min_samples': 6, 'min_micros': 2}"
+artificial/chameleon-ds3-clean,MicroTEDAClus,1.0,0.247115597545097,0.247115597545097,{'r0': 0.001}
+artificial/chameleon-ds3-clean,OEC,1.0,0.4156723023441203,0.4156723023441203,"{'stab_period': 20, 'gamma_normal': 0.944, 'ff': 0.554}"
+artificial/chameleon-ds3-clean,SOSTream,1.0,0.5094056707502607,0.5094056707502607,"{'min_pts': 4, 'merge_threshold': 0.001, 'alpha': 0.109}"
+artificial/chameleon-ds3-with-noise,AutoCloud,1.0,0.2122422998954351,0.2122422998954351,{'m': 1.0}
+artificial/chameleon-ds3-with-noise,CEDAS,1.0,0.37079709805541,0.37079709805541,"{'radius': 0.112, 'min_samples': 16, 'decay': 1788}"
+artificial/chameleon-ds3-with-noise,DBSTREAM,1.0,0.3980840206210702,0.3980840206210702,"{'minimum_weight': 2.778, 'intersection_factor': 0.144, 'clustering_threshold': 0.578}"
+artificial/chameleon-ds3-with-noise,DenStream,1.0,0.4246109310484905,0.4246109310484905,"{'n_samples_init': 335, 'mu': 12.54, 'epsilon': 0.06, 'decaying_factor': 0.03}"
+artificial/chameleon-ds3-with-noise,eSBM4Clus,1.0,0.7484302930866482,0.7484302930866482,"{'w': 25, 'beta': 0.888}"
+artificial/chameleon-ds3-with-noise,MacroSOStream,1.0,0.152452489141437,0.152452489141437,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.223, 'alpha': 0.406}"
+artificial/chameleon-ds3-with-noise,MCMSTStream,1.0,0.3412914571672186,0.3412914571672186,"{'sliding_window_size': 600, 'radius': 0.056, 'min_samples': 2, 'min_micros': 2}"
+artificial/chameleon-ds3-with-noise,MicroTEDAClus,1.0,0.2513393298588167,0.2513393298588167,{'r0': 0.001}
+artificial/chameleon-ds3-with-noise,OEC,1.0,0.6429799977401974,0.6429799977401974,"{'stab_period': 20, 'gamma_normal': 0.666, 'ff': 0.827}"
+artificial/chameleon-ds3-with-noise,SOSTream,1.0,0.2750847961109146,0.2750847961109146,"{'min_pts': 10, 'merge_threshold': 0.389, 'alpha': 0.307}"
+artificial/chameleon-ds4-clean,AutoCloud,1.0,0.2338700714202407,0.2338700714202407,{'m': 2.0}
+artificial/chameleon-ds4-clean,CEDAS,1.0,0.5498989926535494,0.5498989926535494,"{'radius': 0.056, 'min_samples': 12, 'decay': 2000}"
+artificial/chameleon-ds4-clean,DBSTREAM,1.0,0.4109541422105016,0.4109541422105016,"{'minimum_weight': 2.778, 'intersection_factor': 0.189, 'clustering_threshold': 0.156}"
+artificial/chameleon-ds4-clean,DenStream,1.0,0.5145915407084081,0.5145915407084081,"{'n_samples_init': 5, 'mu': 1.429, 'epsilon': 0.06, 'decaying_factor': 0.08}"
+artificial/chameleon-ds4-clean,eSBM4Clus,1.0,0.9195800751901044,0.9195800751901044,"{'w': 10, 'beta': 0.112}"
+artificial/chameleon-ds4-clean,MacroSOStream,1.0,0.2723504176512366,0.2723504176512366,"{'p': 1.0, 'min_pts': 3, 'merge_threshold': 0.389, 'alpha': 0.702}"
+artificial/chameleon-ds4-clean,MCMSTStream,1.0,0.4536919336833028,0.4536919336833028,"{'sliding_window_size': 500, 'radius': 0.056, 'min_samples': 6, 'min_micros': 4}"
+artificial/chameleon-ds4-clean,MicroTEDAClus,1.0,0.4212388544520858,0.4212388544520858,{'r0': 0.056}
+artificial/chameleon-ds4-clean,OEC,1.0,0.3138116165795395,0.3138116165795395,"{'stab_period': 20, 'gamma_normal': 0.666, 'ff': 0.827}"
+artificial/chameleon-ds4-clean,SOSTream,1.0,0.2666921824756211,0.2666921824756211,"{'min_pts': 20, 'merge_threshold': 0.278, 'alpha': 0.504}"
+artificial/chameleon-ds4-with-noise,AutoCloud,1.0,0.1920202065421357,0.1920202065421357,{'m': 2.0}
+artificial/chameleon-ds4-with-noise,CEDAS,1.0,0.3091083826846447,0.3091083826846447,"{'radius': 0.056, 'min_samples': 16, 'decay': 2000}"
+artificial/chameleon-ds4-with-noise,DBSTREAM,1.0,0.4391885901836184,0.4391885901836184,"{'minimum_weight': 1.222, 'intersection_factor': 0.167, 'clustering_threshold': 0.367}"
+artificial/chameleon-ds4-with-noise,DenStream,1.0,0.478581482886818,0.478581482886818,"{'n_samples_init': 280, 'mu': 1.429, 'epsilon': 0.1, 'decaying_factor': 0.01}"
+artificial/chameleon-ds4-with-noise,eSBM4Clus,1.0,0.9460451437455456,0.9460451437455456,"{'w': 20, 'beta': 0.666}"
+artificial/chameleon-ds4-with-noise,MacroSOStream,1.0,0.1866490177730998,0.1866490177730998,"{'p': 10.0, 'min_pts': 3, 'merge_threshold': 0.389, 'alpha': 0.9}"
+artificial/chameleon-ds4-with-noise,MCMSTStream,1.0,0.0957484644218115,0.0957484644218115,"{'sliding_window_size': 100, 'radius': 0.056, 'min_samples': 4, 'min_micros': 4}"
+artificial/chameleon-ds4-with-noise,MicroTEDAClus,1.0,0.2751107424511354,0.2751107424511354,{'r0': 0.001}
+artificial/chameleon-ds4-with-noise,OEC,1.0,0.8576443406286159,0.8576443406286159,"{'stab_period': 20, 'gamma_normal': 0.5, 'ff': 0.881}"
+artificial/chameleon-ds4-with-noise,SOSTream,1.0,0.2531883200501367,0.2531883200501367,"{'min_pts': 10, 'merge_threshold': 0.001, 'alpha': 0.109}"
+artificial/dim1024,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim1024,CEDAS,1.0,1.0,1.0,"{'radius': 0.389, 'min_samples': 2, 'decay': 1155}"
+artificial/dim1024,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim1024,DenStream,1.0,0.2232346241457858,0.2232346241457858,"{'n_samples_init': 500, 'mu': 12.54, 'epsilon': 0.08, 'decaying_factor': 0.1}"
+artificial/dim1024,eSBM4Clus,1.0,0.9219346206473888,0.9219346206473888,"{'w': 50, 'beta': 0.223}"
+artificial/dim1024,MacroSOStream,1.0,1.0,1.0,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.001, 'alpha': 0.01}"
+artificial/dim1024,MCMSTStream,1.0,0.0,0.0,"{'sliding_window_size': 600, 'radius': 0.167, 'min_samples': 6, 'min_micros': 2}"
+artificial/dim1024,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim1024,OEC,1.0,0.0,0.0,"{'stab_period': 15, 'gamma_normal': 0.5, 'ff': 0.772}"
+artificial/dim1024,SOSTream,1.0,0.6217500663074474,0.6217500663074474,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/dim128,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim128,CEDAS,1.0,1.0,1.0,"{'radius': 0.5, 'min_samples': 6, 'decay': 2000}"
+artificial/dim128,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim128,DenStream,1.0,0.2143468428232752,0.2143468428232752,"{'n_samples_init': 500, 'mu': 12.54, 'epsilon': 0.08, 'decaying_factor': 0.1}"
+artificial/dim128,eSBM4Clus,1.0,1.0,1.0,"{'w': 5, 'beta': 0.001}"
+artificial/dim128,MacroSOStream,1.0,1.0,1.0,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.001, 'alpha': 0.01}"
+artificial/dim128,MCMSTStream,1.0,0.0,0.0,"{'sliding_window_size': 600, 'radius': 0.167, 'min_samples': 6, 'min_micros': 2}"
+artificial/dim128,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim128,OEC,1.0,0.0,0.0,"{'stab_period': 15, 'gamma_normal': 0.5, 'ff': 0.772}"
+artificial/dim128,SOSTream,1.0,0.6693587132548531,0.6693587132548531,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/dim256,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim256,CEDAS,1.0,1.0,1.0,"{'radius': 0.389, 'min_samples': 2, 'decay': 1155}"
+artificial/dim256,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim256,DenStream,1.0,0.2063410800826427,0.2063410800826427,"{'n_samples_init': 500, 'mu': 12.54, 'epsilon': 0.08, 'decaying_factor': 0.1}"
+artificial/dim256,eSBM4Clus,1.0,1.0,1.0,"{'w': 10, 'beta': 0.001}"
+artificial/dim256,MacroSOStream,1.0,1.0,1.0,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.001, 'alpha': 0.01}"
+artificial/dim256,MCMSTStream,1.0,0.0,0.0,"{'sliding_window_size': 600, 'radius': 0.167, 'min_samples': 6, 'min_micros': 2}"
+artificial/dim256,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim256,OEC,1.0,0.0,0.0,"{'stab_period': 15, 'gamma_normal': 0.5, 'ff': 0.772}"
+artificial/dim256,SOSTream,1.0,0.678420919206684,0.678420919206684,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/dim32,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim32,CEDAS,1.0,1.0,1.0,"{'radius': 0.389, 'min_samples': 2, 'decay': 1155}"
+artificial/dim32,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim32,DenStream,1.0,0.5664135215964236,0.5664135215964236,"{'n_samples_init': 500, 'mu': 1.429, 'epsilon': 0.05, 'decaying_factor': 0.05}"
+artificial/dim32,eSBM4Clus,1.0,1.0,1.0,"{'w': 5, 'beta': 0.001}"
+artificial/dim32,MacroSOStream,1.0,1.0,1.0,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.001, 'alpha': 0.01}"
+artificial/dim32,MCMSTStream,1.0,0.2100358946461391,0.2100358946461391,"{'sliding_window_size': 600, 'radius': 0.056, 'min_samples': 2, 'min_micros': 2}"
+artificial/dim32,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim32,OEC,1.0,0.0291023782189584,0.0291023782189584,"{'stab_period': 0, 'gamma_normal': 0.555, 'ff': 0.936}"
+artificial/dim32,SOSTream,1.0,0.7855757348485781,0.7855757348485781,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/dim512,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim512,CEDAS,1.0,1.0,1.0,"{'radius': 0.389, 'min_samples': 2, 'decay': 1155}"
+artificial/dim512,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim512,DenStream,1.0,0.2753603274263101,0.2753603274263101,"{'n_samples_init': 500, 'mu': 1.429, 'epsilon': 0.05, 'decaying_factor': 0.05}"
+artificial/dim512,eSBM4Clus,1.0,0.9958044873878378,0.9958044873878378,"{'w': 50, 'beta': 0.001}"
+artificial/dim512,MacroSOStream,1.0,1.0,1.0,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.001, 'alpha': 0.01}"
+artificial/dim512,MCMSTStream,1.0,0.0,0.0,"{'sliding_window_size': 600, 'radius': 0.167, 'min_samples': 6, 'min_micros': 2}"
+artificial/dim512,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim512,OEC,1.0,0.0,0.0,"{'stab_period': 15, 'gamma_normal': 0.5, 'ff': 0.772}"
+artificial/dim512,SOSTream,1.0,0.6593353674013379,0.6593353674013379,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/dim64,AutoCloud,1.0,1.0,1.0,{'m': 2.0}
+artificial/dim64,CEDAS,1.0,1.0,1.0,"{'radius': 0.445, 'min_samples': 4, 'decay': 1788}"
+artificial/dim64,DBSTREAM,1.0,1.0,1.0,"{'minimum_weight': 2.556, 'intersection_factor': 0.1, 'clustering_threshold': 0.578}"
+artificial/dim64,DenStream,1.0,0.4693402242325123,0.4693402242325123,"{'n_samples_init': 500, 'mu': 1.429, 'epsilon': 0.05, 'decaying_factor': 0.05}"
+artificial/dim64,eSBM4Clus,1.0,1.0,1.0,"{'w': 15, 'beta': 0.001}"
+artificial/dim64,MacroSOStream,1.0,0.189250127539883,0.189250127539883,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.223, 'alpha': 0.406}"
+artificial/dim64,MCMSTStream,1.0,0.0519458297946609,0.0519458297946609,"{'sliding_window_size': 200, 'radius': 0.167, 'min_samples': 2, 'min_micros': 4}"
+artificial/dim64,MicroTEDAClus,1.0,1.0,1.0,{'r0': 0.001}
+artificial/dim64,OEC,1.0,0.0,0.0,"{'stab_period': 15, 'gamma_normal': 0.5, 'ff': 0.772}"
+artificial/dim64,SOSTream,1.0,0.6694779356435242,0.6694779356435242,"{'min_pts': 2, 'merge_threshold': 0.001, 'alpha': 0.603}"
+artificial/s1,AutoCloud,1.0,0.9828797461582668,0.9828797461582668,{'m': 2.0}
+artificial/s1,CEDAS,1.0,0.4041107963769209,0.4041107963769209,"{'radius': 0.112, 'min_samples': 20, 'decay': 2000}"
+artificial/s1,DBSTREAM,1.0,0.6888983106243268,0.6888983106243268,"{'minimum_weight': 1.667, 'intersection_factor': 0.167, 'clustering_threshold': 0.156}"
+artificial/s1,DenStream,1.0,0.604355343558537,0.604355343558537,"{'n_samples_init': 335, 'mu': 1.429, 'epsilon': 0.04, 'decaying_factor': 0.02}"
+artificial/s1,eSBM4Clus,1.0,0.9883834175613936,0.9883834175613936,"{'w': 15, 'beta': 0.223}"
+artificial/s1,MacroSOStream,1.0,0.1232475077363975,0.1232475077363975,"{'p': 1.0, 'min_pts': 3, 'merge_threshold': 0.056, 'alpha': 0.109}"
+artificial/s1,MCMSTStream,1.0,0.1188786803208121,0.1188786803208121,"{'sliding_window_size': 900, 'radius': 0.223, 'min_samples': 14, 'min_micros': 2}"
+artificial/s1,MicroTEDAClus,1.0,0.9752874181511196,0.9752874181511196,{'r0': 0.056}
+artificial/s1,OEC,1.0,0.988405599004082,0.988405599004082,"{'stab_period': 20, 'gamma_normal': 0.944, 'ff': 0.772}"
+artificial/s1,SOSTream,1.0,0.278050718734617,0.278050718734617,"{'min_pts': 2, 'merge_threshold': 0.056, 'alpha': 0.9}"
+artificial/s2,AutoCloud,1.0,0.9128077780819496,0.9128077780819496,{'m': 2.0}
+artificial/s2,CEDAS,1.0,0.2606210173313359,0.2606210173313359,"{'radius': 0.056, 'min_samples': 6, 'decay': 1577}"
+artificial/s2,DBSTREAM,1.0,0.6183466253820186,0.6183466253820186,"{'minimum_weight': 1.889, 'intersection_factor': 0.1, 'clustering_threshold': 0.156}"
+artificial/s2,DenStream,1.0,0.6108657150984376,0.6108657150984376,"{'n_samples_init': 390, 'mu': 1.429, 'epsilon': 0.05, 'decaying_factor': 0.07}"
+artificial/s2,eSBM4Clus,1.0,0.9099134074196824,0.9099134074196824,"{'w': 20, 'beta': 0.334}"
+artificial/s2,MacroSOStream,1.0,0.2523737870112942,0.2523737870112942,"{'p': 1.0, 'min_pts': 3, 'merge_threshold': 0.056, 'alpha': 0.109}"
+artificial/s2,MCMSTStream,1.0,0.1747028077526254,0.1747028077526254,"{'sliding_window_size': 600, 'radius': 0.056, 'min_samples': 2, 'min_micros': 2}"
+artificial/s2,MicroTEDAClus,1.0,0.9044412183701516,0.9044412183701516,{'r0': 0.001}
+artificial/s2,OEC,1.0,0.9265347712910064,0.9265347712910064,"{'stab_period': 17, 'gamma_normal': 0.555, 'ff': 0.936}"
+artificial/s2,SOSTream,1.0,0.1178946755781798,0.1178946755781798,"{'min_pts': 18, 'merge_threshold': 0.167, 'alpha': 0.603}"
+artificial/s3,AutoCloud,1.0,0.2709466701978493,0.2709466701978493,{'m': 2.0}
+artificial/s3,CEDAS,1.0,0.2444139869504988,0.2444139869504988,"{'radius': 0.056, 'min_samples': 16, 'decay': 2000}"
+artificial/s3,DBSTREAM,1.0,0.5007024661090599,0.5007024661090599,"{'minimum_weight': 3.0, 'intersection_factor': 0.278, 'clustering_threshold': 0.156}"
+artificial/s3,DenStream,1.0,0.6212722754565564,0.6212722754565564,"{'n_samples_init': 335, 'mu': 1.429, 'epsilon': 0.04, 'decaying_factor': 0.02}"
+artificial/s3,eSBM4Clus,1.0,0.6042487200036697,0.6042487200036697,"{'w': 5, 'beta': 0.223}"
+artificial/s3,MacroSOStream,1.0,0.1135474647470315,0.1135474647470315,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.223, 'alpha': 0.406}"
+artificial/s3,MCMSTStream,1.0,0.081302823666563,0.081302823666563,"{'sliding_window_size': 600, 'radius': 0.056, 'min_samples': 2, 'min_micros': 2}"
+artificial/s3,MicroTEDAClus,1.0,0.6828340751805092,0.6828340751805092,{'r0': 0.001}
+artificial/s3,OEC,1.0,0.6950119975685656,0.6950119975685656,"{'stab_period': 20, 'gamma_normal': 0.666, 'ff': 0.827}"
+artificial/s3,SOSTream,1.0,0.0959889799389548,0.0959889799389548,"{'min_pts': 18, 'merge_threshold': 0.389, 'alpha': 0.01}"
+artificial/s4,AutoCloud,1.0,0.0508537476962305,0.0508537476962305,{'m': 1.0}
+artificial/s4,CEDAS,1.0,0.2090417873121627,0.2090417873121627,"{'radius': 0.056, 'min_samples': 8, 'decay': 733}"
+artificial/s4,DBSTREAM,1.0,0.4253604789174873,0.4253604789174873,"{'minimum_weight': 3.0, 'intersection_factor': 0.122, 'clustering_threshold': 0.156}"
+artificial/s4,DenStream,1.0,0.4413623975957156,0.4413623975957156,"{'n_samples_init': 335, 'mu': 1.429, 'epsilon': 0.07, 'decaying_factor': 0.04}"
+artificial/s4,eSBM4Clus,1.0,0.3628754560147652,0.3628754560147652,"{'w': 5, 'beta': 0.334}"
+artificial/s4,MacroSOStream,1.0,0.1017340500460174,0.1017340500460174,"{'p': 6.0, 'min_pts': 3, 'merge_threshold': 0.223, 'alpha': 0.406}"
+artificial/s4,MCMSTStream,1.0,0.190352039323757,0.190352039323757,"{'sliding_window_size': 600, 'radius': 0.056, 'min_samples': 2, 'min_micros': 2}"
+artificial/s4,MicroTEDAClus,1.0,0.5624391154220031,0.5624391154220031,{'r0': 0.001}
+artificial/s4,OEC,1.0,0.6435707122173295,0.6435707122173295,"{'stab_period': 13, 'gamma_normal': 0.722, 'ff': 0.718}"
+artificial/s4,SOSTream,1.0,0.1076302861805387,0.1076302861805387,"{'min_pts': 20, 'merge_threshold': 0.223, 'alpha': 0.01}"
