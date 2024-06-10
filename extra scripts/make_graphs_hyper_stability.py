@@ -55,7 +55,7 @@ if __name__ == '__main__':
         params = pd.DataFrame(map(eval, params))
         params['ARI'] = subresult[COLUMNS[0]].values
         
-        hyperparameters = params.columns[:-1]
+        hyperparameters = params.columns[:-1].values
         
         labels  = {}
         # if method == 'eSBM4Clus':
@@ -66,7 +66,8 @@ if __name__ == '__main__':
       
         fig = px.parallel_categories(params, dimensions=hyperparameters,
                         labels=labels, color='ARI', 
-                        color_continuous_scale=px.colors.sequential.Magma)
+                        color_continuous_scale=px.colors.sequential.Magma,
+                        range_color=[0, 1])
         
         
         margin={'t': 17,'l':14,'b':0.1,'r': 0.1}
